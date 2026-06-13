@@ -1,0 +1,6 @@
+{
+  "name": "SustainEco-AI",
+  "description": "An Autonomous Sustainability Intelligence Platform running a multi-agent LangGraph operating system for expert Agriculture, Manufacturing, Chemical, and Climate diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

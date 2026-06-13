@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;850&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Deep luxury slate design system colors */
+  --color-emerald-850: #064e3b;
+  --color-emerald-950: #022c22;
+  --color-stone-850: #1c1917;
+  --color-stone-900: #100f0e;
+  --color-stone-950: #0a0908;
+  --color-stone-105: #f4f3f2;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-stone-105);
+  }
+}
+
